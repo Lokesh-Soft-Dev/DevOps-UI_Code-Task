@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Git & DevOps Portfolio</title>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      font-size: 2.5em;
+      color: #38bdf8;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #94a3b8;
+    }
+    section {
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 10px;
+      background: #1e293b;
+    }
+    h2 {
+      color: #facc15;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: square;
+      padding-left: 20px;
+    }
+    .btn {
+      background: #38bdf8;
+      color: #0f172a;
+      padding: 10px 20px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #0ea5e9;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      color: #94a3b8;
+      margin-top: 30px;
+    }
+    code {
+      background: #334155;
+      padding: 4px 6px;
+      border-radius: 5px;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🚀 Git & DevOps Portfolio</h1>
+    <p>Version Control | Branching | Token Auth | CI/CD Basics</p>
+  </header>
+
+  <section>
+    <h2>👨‍💻 About Me</h2>
+    <p>I am a passionate DevOps learner skilled in Git, GitHub, and automation workflows. I create efficient CI/CD pipelines and practice Git operations using branches and tokens for security.</p>
+  </section>
+
+  <section>
+    <h2>🔑 Personal Access Token Usage</h2>
+    <p>To push code securely to GitHub:</p>
+    <ul>
+      <li>Go to GitHub Settings → Developer Settings → Tokens</li>
+      <li>Generate a new token with repo access</li>
+      <li>Use it like this:</li>
+    </ul>
+    <code>https://yourusername:yourtoken@github.com/yourrepo.git</code>
+  </section>
+
+  <section>
+    <h2>🌿 Branch Merging Task</h2>
+    <p>To create and merge branches:</p>
+    <ul>
+      <li><code>git checkout -b feature-branch</code> – create branch</li>
+      <li><code>git add .</code> & <code>git commit -m "your msg"</code></li>
+      <li><code>git push origin feature-branch</code></li>
+      <li>Open PR or use <code>git merge</code> in main branch</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>⚙️ Basic CI/CD Flow (Concept)</h2>
+    <ul>
+      <li>Push to GitHub triggers GitHub Actions</li>
+      <li>Run test/build/deploy steps</li>
+      <li>Deploy to staging or production</li>
+    </ul>
+    <button class="btn" onclick="alert('Coming soon: CI/CD demo')">Demo Pipeline</button>
+  </section>
+
+  <section>
+    <h2>📂 My Repositories</h2>
+    <ul>
+      <li><a href="https://github.com/yourusername/devops-token-task" target="_blank" style="color:#60a5fa">Token Auth Task Repo</a></li>
+      <li><a href="https://github.com/yourusername/git-branch-merge-task" target="_blank" style="color:#60a5fa">Branch Merge Task Repo</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2025 K LOKESH | Built with ❤️  DevOps
+  </footer>
+
+</body>
+</html>
+
