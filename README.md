@@ -1,4 +1,4 @@
 # DevOps
 
-This is My Own Project, I Created a Portfolio 
+This is My Own code, I Created a portfolio  
 
